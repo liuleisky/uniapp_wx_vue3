@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"useDefineForClassFields": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"lib": ["esnext", "dom"],
+		"typeRoots": ["node_modules", "node_modules/@types", "node_modules/@dcloudio"], // 声明文件目录，默认node_modules/@types
+		"types": ["types", "uni-app-types"],
+		"paths": {
+			"@/*": ["./*"] // 路径映射，相对于baseUrl
+		}
+	},
+	"vueCompilerOptions": {
+		"nativeTags": ["view", "scroll-view"],
+		"experimentalRuntimeMode": "runtime-uni-app"
+	},
+	"include": ["/**/*.ts", "/**/*.d.ts", "/**/*.tsx", "/**/*.vue", "config/**/*.ts"]
+}

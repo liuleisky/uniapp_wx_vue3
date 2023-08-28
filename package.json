@@ -1,0 +1,39 @@
+{
+  "name": "where-about-h5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "lint:eslint": "eslint --fix --ext \"src/**/*.{vue,less,css,scss}\"",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
+    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/"
+  },
+  "keywords": [],
+  "author": "liulei",
+  "license": "ISC",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1",
+    "js-base64": "^3.7.2",
+    "dayjs": "^1.11.1",
+    "node-sass": "^4.14.1",
+    "sass": "^1.56.1"
+  },
+  "devDependencies": {
+	"@dcloudio/types": "^3.0.13",
+    "@vue/eslint-config-prettier": "^7.0.0",
+	"@vue/eslint-config-typescript": "^10.0.0",
+	"@typescript-eslint/parser": "^5.13.0",
+	"typescript": "^4.6.3",
+    "babel-eslint": "^10.1.0",
+	"uni-app-types": "^0.1.7",
+    "eslint": "^8.16.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.0.1",
+    "lint-staged": "^12.4.2",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.5",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-order": "^5.0.0"
+  }
+}
